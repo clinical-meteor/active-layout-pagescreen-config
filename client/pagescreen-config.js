@@ -1,5 +1,16 @@
 // Write your package code here!
 Meteor.startup(function (){
+  Router.configure({
+    layoutTemplate: 'appLayout',
+    notFoundTemplate: 'pageNotFound',
+    loadingTemplate: 'appLoading',
+    yieldTemplates: {
+      'sidebar': {
+        to: "westPanel"
+      }
+    }
+  });
+
   ActiveLayout.configure({
     help: {
       link: "/menu",
