@@ -7,7 +7,16 @@ Default pagescreen configuration for ActiveLayout. For testing and debugging pur
 ####Package Installation  
 
 ````bash
-meteor add clinical:simple-layout-pagescreen-config
+# then add pagescreen config
+meteor add clinical:active-layout
+
+# add the sidebar dependencies
+# you'll want to clone it into your app so you can edit it
+git clone https://github.com/clinical-meteor/sidebar packages/sidebar
+meteor add clinical:sidebar
+
+# then add pagescreen config
+meteor add clinical:active-layout-pagescreen-config
 ````
 
 ==========================
