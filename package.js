@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:active-layout-pagescreen-config',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'Default pagescreen configuration for ActiveLayout. For testing and debugging, mostly.',
   git: 'https://github.com/clinical-meteor/active-layout-pagescreen-config',
   documentation: 'README.md'
